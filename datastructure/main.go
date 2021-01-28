@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"github.com/YipCyun/algorithms/datastructure/reverselinkedlist"
-)
-
 func main() {
 	/*
 		lru
@@ -26,9 +21,31 @@ func main() {
 	/*
 		reverse linked list
 	*/
-	initialValues := []int{0, 1, 2, 3}
-	headNode := reverselinkedlist.InitLinkedList(initialValues)
+	//initialValues := []int{0, 1, 2, 3}
+	//headNode := reverselinkedlist.InitLinkedList(initialValues)
+	//
+	//fmt.Println(reverselinkedlist.List2Integers(headNode))
+	//headNode.Reverse()
 
-	fmt.Println(reverselinkedlist.List2Integers(headNode))
-	headNode.Reverse()
+	/*
+		stack
+	*/
+	//var arrayStack stack.ArrayStack
+	//
+	//err := arrayStack.Init(10)
+	//if err != nil {
+	//	panic(err)
+	//}
+	//
+	//err = arrayStack.Push("0")
+	//if err != nil {
+	//	panic(err)
+	//}
+	//
+	//err, top := arrayStack.Pop()
+	//if err != nil {
+	//	panic(err)
+	//}
+	//
+	//fmt.Println(top)
 }
